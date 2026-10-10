@@ -24,6 +24,9 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # feh bg
 exec_always --no-startup-id ~/.fehbg
 
+# flameshot a screenshot tool
+bindsym Print exec --no-startup-id flameshot gui
+
 # Autostart(s)
 exec_always --no-startup-id xinput set-prop "2.4G Mouse" "libinput Accel Profile Enabled" 0, 1
 exec_always --no-startup-id xinput set-prop "2.4G Mouse" "libinput Accel Speed" -0.4
