@@ -5,12 +5,11 @@
     "os",
     "kernel",
     "packages",
-    "de",
     "wm",
+    "terminal",
     "cpu",
     "gpu",
     "memory",
     "disk",
-    "break"
   ]
 }

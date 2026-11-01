@@ -1,0 +1,6 @@
+[colors.primary]
+background = "#000000"
+foreground = "#ffffff"
+[window.padding]
+x = 6
+y = 6

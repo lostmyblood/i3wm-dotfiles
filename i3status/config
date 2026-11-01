@@ -1,6 +1,10 @@
 general {
     colors = true
     interval = 5
+    output_format = "i3bar"
+    color_good = "#00FF00"
+    color_degraded = "#FFFF00"
+    color_bad = "#FF0000"
 }
 
 order += "wireless _first_"
@@ -15,14 +19,17 @@ wireless _first_ {
 
 memory {
     format = " %used "
-    threshold_degraded = "10%"
+    threshold_degraded = "20%"
+    threshold_critical = "10%"
     format_degraded = "MEMORY LOW: %free"
 }
 
 cpu_usage {
     format = " %usage "
+    degraded_threshold = 50
+    max_threshold = 80
 }
 
 tztime local {
-    format = " %d-%m-%Y  %H:%M "
+    format = " %d-%m-%Y  %I:%M "
 }
