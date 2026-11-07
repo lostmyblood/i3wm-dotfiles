@@ -1,0 +1,39 @@
+@-moz-document url-prefix("about:") {
+  html,
+  body {
+    background-color: #0f0f0f !important;
+    color: #e5e5e5 !important;
+    color-scheme: dark !important;
+  }
+
+	  * {
+    border-radius: 0 !important;
+  }
+
+  button:hover,
+  .button:hover {
+    background-color: #b0b0b0 !important;
+    color: #101010 !important;
+  }
+
+  * {
+    --text-color: #e5e5e5 !important;
+    --color-accent-primary: #b0b0b0 !important;
+    --color-accent-secondary: #858585 !important;
+    --background-color-box: #1e1e1e !important;
+    --background-color-box-info: #1e1e1e !important;
+    --background-color-information: #272727 !important;
+    --background-color-canvas: #0f0f0f !important;
+    --border-color: #3b3b3b !important;
+    --border-color-deemphasized: #3b3b3b !important;
+    --button-background-color-muted: #272727 !important;
+    --button-text-color-ghost-disabled: #888 !important;
+    --button-border: 2px solid var(--border-color) !important;
+    --table-row-background-color-alternate: #1e1e1e !important;
+    --text-color-accent-primary-selected: var(--text-color) !important;
+    --table-background-color: var(--background-color-box) !important;
+    --table-border-color: var(--border-color) !important;
+    --table-header-background-color: #292929 !important;
+    --table-row-background-color: var(--background-color-canvas) !important;
+  }
+}
