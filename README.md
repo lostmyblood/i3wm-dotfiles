@@ -12,3 +12,4 @@ sudo tee /etc/sddm.conf.d/theme.conf >/dev/null <<'EOF'
 Current=reactionary-clean
 EOF
 ```
+place the mouse thing in /etc/X11/xorg.conf.d/
